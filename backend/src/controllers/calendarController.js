@@ -34,6 +34,8 @@ async function scheduleMeeting(req, res) {
     if (!inspectorUpn || !providerEmail || !startDateTime || !endDateTime) {
       return res.status(400).json({ error: 'inspectorUpn, providerEmail, startDateTime, endDateTime required' });
     }
+    console.log("inspectorUpn->",inspectorUpn);
+
     const client = getAuthenticatedClient();
 
     const event = {

@@ -7,8 +7,8 @@ export default function InspectorList({ onSelect }: { onSelect: (upn: string) =>
   useEffect(() => {
     // Placeholder: replace with real API call
     setInspectors([
-      { id: 1, display_name: 'Inspector One', microsoft_upn: 'inspector1@contoso.com' },
-      { id: 2, display_name: 'Inspector Two', microsoft_upn: 'inspector2@contoso.com' }
+      { id: 1, display_name: 'Inspector One', microsoft_upn: 'nagesh@gangachava.in' },
+      { id: 2, display_name: 'Inspector Two', microsoft_upn: 'inspector2@gmail.com' }
     ]);
   }, []);
 
